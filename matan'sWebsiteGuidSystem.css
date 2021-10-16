@@ -1,0 +1,68 @@
+
+h1{
+    margin:20px 20px;
+}
+h2{
+    margin: 20px 20px;
+}
+h3{
+    margin:20px 20px;
+}
+
+
+
+.container{
+    font-family: monospace;
+    position: relative;
+    border: 3px solid black;
+    margin:10px 20px; 
+}
+.control-panel{
+    position: relative;
+    display: inline-block;
+    width:15%;
+    margin: 20px auto;
+    left:15px;
+}
+.nordic-blue{
+    background: linear-gradient(110deg,#30DCD1, #141E30);
+
+}
+.color-label{
+    text-align: center;
+}
+
+.color-code{
+    text-align: center;
+}
+
+.grey-green{
+    background: #3d8387;
+}
+.wheat{
+    background: wheat;
+}
+.grey{
+    background: #bbb;
+}
+.fonts-control-pannel{
+    position: relative;
+    display: inline-block;
+    width:32%;
+    
+}
+
+.fonts-control-pannel p{
+    margin: 20px 20px;
+}
+
+.Ariel{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-control-panel{
+    margin:20px 20px;
+}
+.listing{
+    margin:auto 10px;
+}
