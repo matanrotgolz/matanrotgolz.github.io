@@ -24,8 +24,6 @@ header{
 
     margin:50px 5px;
 }
-.name{
-}
 .center{
     margin: 40px auto;
     width: 80%;
@@ -113,12 +111,12 @@ li .logo, div .logo{
     background: linear-gradient(145deg, #1e2024, #23272b);
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
 }
-
 img{
     width:1%;
     height: 1%;
     padding:1em;
 }
+
 
 .Best-skill-container{
     position: relative;
@@ -126,6 +124,9 @@ img{
     display: inline-block;
     width:1000px;
 
+}
+.githubLogo:hover{
+    margin-top: -2em;
 }
 .first-list-container{
     display: inline-block;
