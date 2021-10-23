@@ -9,7 +9,9 @@ let htmlPre = document.getElementById('HTML-pre');
 let vhdlBar = document.getElementById('vhdl');
 let vhdlPre = document.getElementById('vhdl-pre');
 let cssBar = document.getElementById('css');
-let cssPre = document.getElementById('css-pre')
+let cssPre = document.getElementById('css-pre');
+let arduinoBar = document.getElementById('Arduino');
+let arduinoPre = document.getElementById('arduino-pre');
 
 const arrayBar = [pythonbar,CPlusBar,cBar,htmlBar,vhdlBar,cssBar];
 const arrayPre = [pythonPre,cPlusPre,Cpre,htmlPre,vhdlPre,cssPre];
@@ -21,6 +23,8 @@ function move(event) {
     i = 1; 
     x = 1;
     y = 1;
+    let elem13 = arduinoPre;
+    let elem12 = arduinoBar;
     let elem11 = cssPre;
     let elem10 = cssBar;
     let elem9 = vhdlPre;
@@ -45,6 +49,8 @@ function move(event) {
         i = 0;
       } else {
         width1++;
+        elem13.innerHTML = width1 + "%";
+        elem12.style.width = width1 + "%";
         elem11.innerHTML = width1 + "%";
         elem10.style.width = width1 + "%";
         elem7.innerHTML =  width1 + "%";
@@ -79,5 +85,29 @@ function move(event) {
   prog.removeEventListener('mouseover',move);
 }
 
+
+
+function move1(event) {
+  if (i == 0) {
+    i = 1; 
+    let width1 = 1;
+    let id = setInterval(frame, 10);
+    function frame() {
+      if (width1 >= 100) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        width1++;
+        headerColor.style.width = width1;
+      }
+    }
+  }
+  prog.removeEventListener('mouseover',move);
+}
+
 let prog = document.getElementById('prograssbar-container');
-prog.addEventListener('mouseover',move)
+prog.addEventListener('mouseover',move);
+
+
+let headerColor = document.getElementById('right');
+headerColor.addEventListener('mouseover',move1)
