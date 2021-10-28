@@ -134,37 +134,40 @@ h3{
     top:2em;
 }
 .backEndHeader , .FrontListHeader,.ToolsListHeader{
+    padding: 5px;
     width:120%;
 
 }
-.backEnd{
 
-    display: inline-table;
-    position: relative;
-    width:10%;
-    height: 250px;
-    margin-left: 2em;
-
-    
-}
 .FrontEnd{
     display: inline-table;
     width: 10%;
     height: 250px;
 }
+.backEnd{
+    display: inline-table;
+    position: relative;
+    width:10%;
+    height: 250px;
+    margin-left: 3em;
+
+    
+}
+
 
 .tools{
-
     display: inline-table;
-    width: 10%;
+    width:10%;
     height: 250px;
-    margin-left: 2em;
+    margin-left: 4em;
+
 }
 .FrontEndList , .backEndList, .ToolsList{
     display: inline-block;
     position: relative;
     list-style: none;
-    margin: 10px 12px;
+    left:2em;
+    margin: 10px 50px;
     width: 40px;
     height: 250px;
     text-align: center;
@@ -191,9 +194,7 @@ ul{
     width:321px;
 }
 
-ul li{
-    float: left;
-}
+
 
 li .logo, div .logo{
     margin: 10px 12px;
@@ -223,7 +224,9 @@ img{
     padding:1em;
 }
 
-
+ul li{
+    float:left;
+}
 .Best-skill-container{  
 
     position: relative;
