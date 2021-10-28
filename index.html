@@ -23,16 +23,37 @@
             <hr>
             <div class = "Best-skill-container" id = "Best-skill-container">
                 <div class = "first-list-container">
-                    <h2 id ="test">Programing knowledge</h2>
-                    <ul>
-                        <li><img src = "javascript.png" class = "logo"/></li>
-                        <li><img src = "html.png" class = "logo"/></li>
-                        <li><img src = "css.png" class  = "logo"/></li>
-                        <li><img src = "python-logo.png" class = "logo"/></li>
-                        <li><img src  ="Untitled.png" class = "logo"></li>
-                        <li><img src = "C++.png" class = "logo"></li>
-                    </ul>
+                    <h2 class ="prog-kno">Programing knowledge</h2>
+                    <div class = "knowledge">
+                        <section class = "FrontEnd">
+                            <h3 class ="FrontListHeader">Front End</h3>
+                            <br>
+                            <ul class = "FrontEndList">
+                                <li><img src = "javascript.png" class = "Frontlogo"/></li>
+                                <li><img src = "html.png" class = "Frontlogo"/></li>
+                                <li><img src = "css.png" class  = "Frontlogo"/></li>
+                            </ul>
+                        </section>
+                        <section class = "backEnd">
+                            <h3 class = "backEndHeader">Back End</h3>
+                            <br>
+                            <ul class = "backEndList">
+                                <li><img src = "python-logo.png" class = "backlogo"/></li>
+                                <li><img src  ="Untitled.png" class = "backlogo"></li>
+                                <li><img src = "C++.png" class = "backlogo"></li>
+                            </ul>
+                        </section>
+                        <section class ="tools">
+                            <h3 class= "ToolsListHeader">Tools</h3>
+                            <br>
+                            <ul class = "ToolsList">
+                                <li><img src = "vscode.jpg" class = "toolsLogo"/></li>
+                                <li><img src = "react.png" class = "toolsLogo"/></li>
+                            </ul>
+                        </section>
+                    </div>
                 </div>
+                <hr>
                 <div class = "second-list-cintainer" id = "test">
                     <h2 class = "right" id = "right">Find me</h2>
                     <ul class ="secondList">
@@ -62,11 +83,11 @@
                 <h2 class= "-header">Level of knowledge</h2>
                 <div class = "prograss" id = "progress">
                     <div class ="left">
-                        <div class = " external C">
-                            <P class ="lang">C</P>
+                        <div class = " external">
+                            <P class ="lang">Python</P>
                             <div class = "outer">
-                                <div class =" lang-bar C-bar" id = "C">
-                                    <span class = "precenteg" id = "C-pre">0%</span>
+                                <div class =" lang-bar python-bar" id = "python">
+                                    <span class = "precenteg" id = "python-pre">0%</span>
                                 </div>
                             </div>
                         </div>
@@ -81,10 +102,28 @@
                     </div>
                     <div class ="left">
                         <div class =" external ">
-                            <p class = "lang">Python</p>
+                            <p class = "lang">CSS</p>
                             <div class = "outer">
-                                <div class = "lang-bar python-bar" id ="python">
-                                    <span class =" precenteg" id = "python-pre">0%</span>
+                                <div class = "lang-bar css-bar" id ="css">
+                                    <span class =" precenteg" id = "css-pre">0%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class =" external ">
+                        <p class = "lang">JavaScript</p>
+                        <div class = "outer">
+                            <div class = "lang-bar js-bar" id ="JS">
+                                <span class =" precenteg" id = "js-pre">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class ="left">
+                        <div class =" external ">
+                            <p class = "lang">Arduino</p>
+                            <div class = "outer">
+                                <div class = "lang-bar Arduino-bar" id ="Arduino">
+                                    <span class =" precenteg" id = "arduino-pre">0%</span>
                                 </div>
                             </div>
                         </div>
@@ -92,17 +131,17 @@
                     <div class =" external ">
                         <p class = "lang">VHDL</p>
                         <div class = "outer">
-                            <div class = "lang-bar VHDL-bar" id ="vhdl">
+                            <div class = "lang-bar vhdl-bar" id ="vhdl">
                                 <span class =" precenteg" id = "vhdl-pre">0%</span>
                             </div>
                         </div>
                     </div>
                     <div class ="left">
                         <div class =" external ">
-                            <p class = "lang">CSS</p>
+                            <p class = "lang">C</p>
                             <div class = "outer">
-                                <div class = "lang-bar css-bar" id ="css">
-                                    <span class =" precenteg" id = "css-pre">0%</span>
+                                <div class = "lang-bar C-bar" id ="C">
+                                    <span class =" precenteg" id = "C-pre">0%</span>
                                 </div>
                             </div>
                         </div>
@@ -115,16 +154,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class ="left">
-                        <div class =" external ">
-                            <p class = "lang">Arduino</p>
-                            <div class = "outer">
-                                <div class = "lang-bar arduino-bar" id ="Arduino">
-                                    <span class =" precenteg" id = "arduino-pre">0%</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                </div>
                 </div>
             </div>
             <script src= "./script.js"></script>

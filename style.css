@@ -97,7 +97,10 @@ h2.-header{
     bottom:-10px;
 }
 
-
+.first-list-container{
+   width:1000px;
+   display: inline-block;
+}
 
 h2.port-header{
     width:80%;
@@ -106,8 +109,83 @@ h2.port-header{
     bottom: 60px;
 }
 
-ul{
+h2.prog-kno{
+    width:100% !important;
+   
+}
+.knowledge{
+    height:400px;
+    display: inline-block;
+    width: 100%;
+}
+h3{
+    position: relative;
+    width: 20%;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    transition: background-color 1s;
+    top:2em;
+}
+.backEndHeader , .FrontListHeader,.ToolsListHeader{
+    width:120%;
+
+}
+.backEnd{
+
+    display: inline-table;
+    position: relative;
+    width:10%;
+    height: 250px;
+    margin-left: 2em;
+
     
+}
+.FrontEnd{
+    display: inline-table;
+    width: 10%;
+    height: 250px;
+}
+
+.tools{
+
+    display: inline-table;
+    width: 10%;
+    height: 250px;
+    margin-left: 2em;
+}
+.FrontEndList , .backEndList, .ToolsList{
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    margin: 10px 12px;
+    width: 40px;
+    height: 250px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+
+}
+
+.Frontlogo, .backlogo, .toolsLogo{
+    position: relative;
+    width: 50px;
+    height: 40px;
+    right:35px;
+}
+
+ul{
+   
     display: inline-block;
     list-style: none;
     width:321px;
@@ -146,8 +224,8 @@ img{
 }
 
 
-.Best-skill-container{
-    
+.Best-skill-container{  
+
     position: relative;
     margin: 60px;
     display: inline-block;
@@ -157,21 +235,19 @@ img{
 .githubLogo:hover{
     margin-top: -2em;
 }
-.first-list-container{
-    display: inline-block;
-    
-}
+
 
 
 .second-list-cintainer{
     position: relative;
     display: inline-block;
     left:400px;
-    bottom:80px ;
+    
 }
 .secondList{
     position: relative;
     right:40px;
+   
 }
 .project-container{
    

@@ -12,7 +12,8 @@ let cssBar = document.getElementById('css');
 let cssPre = document.getElementById('css-pre');
 let arduinoBar = document.getElementById('Arduino');
 let arduinoPre = document.getElementById('arduino-pre');
-
+let JsBar = document.getElementById('JS');
+let JsPre = document.getElementById('js-pre');
 const arrayBar = [pythonbar,CPlusBar,cBar,htmlBar,vhdlBar,cssBar];
 const arrayPre = [pythonPre,cPlusPre,Cpre,htmlPre,vhdlPre,cssPre];
 let i = 0;
@@ -23,6 +24,8 @@ function move(event) {
     i = 1; 
     x = 1;
     y = 1;
+    let elem15 = JsPre;
+    let elem14 = JsBar;
     let elem13 = arduinoPre;
     let elem12 = arduinoBar;
     let elem11 = cssPre;
@@ -49,6 +52,8 @@ function move(event) {
         i = 0;
       } else {
         width1++;
+        elem15.innerHTML = width1 +"%";
+        elem14.style.width = width1 +"%";
         elem13.innerHTML = width1 + "%";
         elem12.style.width = width1 + "%";
         elem11.innerHTML = width1 + "%";
