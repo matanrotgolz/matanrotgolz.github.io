@@ -404,3 +404,72 @@ footer{
         left:2% !important;
     }
 }
+
+@media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3){ 
+        .control-panel p{
+            margin-top:20%;
+        }
+        .intro img{
+            position: relative;
+            right:10% !important;
+        }
+    
+        .Best-skill-container{
+          
+            width:100%;
+            right:10%;
+        }
+        h2.prog-kno{
+         
+            width:58% !important;
+        }
+        h3{
+        
+            position: relative;
+            width: 40%c !important;
+            height: 50px;
+            font-size: 10px;
+        }
+        .backEndHeader , .FrontListHeader,.ToolsListHeader{
+            padding: 1px !important;
+    
+        }
+        .ToolsListHeader{
+            width:90% !important;
+            right:20%;
+        }
+        .FrontListHeader{
+            left: 30%;
+        }
+        .backEndHeader{
+            left:10%;
+        }
+       
+        .ToolsList{
+            position: relative;
+     
+            margin-left: -3em !important;
+        }
+        .backEndList{
+            position: relative;
+        
+            left: -2em !important;
+        }
+        
+        .second-list-cintainer{
+            position: relative;
+            left:30% !important;
+        }
+        .SmartHome{
+            position: relative;
+            left:2% !important;
+        }
+        h2.-header{
+            position: relative;
+            left:2% !important;
+        }
+    }
+    
