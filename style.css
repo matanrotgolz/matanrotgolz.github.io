@@ -97,13 +97,14 @@ h2.port-header{
 }
 
 h2.prog-kno{
-    width:100% !important;
-   
+    position: relative;
+    width:100%;
+    right:2%;
 }
 .knowledge{
     height:400px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
 }
 h3{
@@ -132,7 +133,7 @@ h3{
     display: inline-table;
     width: 10%;
     height: 250px;
-    right:22%;
+    right:6%;
 }
 .backEnd{
     position: relative;
@@ -140,8 +141,9 @@ h3{
     position: relative;
     width:10%;
     height: 250px;
-    right:2%;
-     
+    right:3%;
+    
+
 }
 
 
@@ -150,8 +152,7 @@ h3{
     display: inline-table;
     width:10%;
     height: 250px;
-    left:18%;
-    
+    right:2%;
 
 }
 .FrontEndList , .backEndList, .ToolsList{
