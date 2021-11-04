@@ -25,19 +25,13 @@ header{
 .intro{
     width:170%;
     position: relative;
-    display: inline-block;
+    display: flex;
     margin-bottom: 10%;
 
 }
-.control-panel{
-    position: relative;
-    display: inline-block;
 
- 
-}
 .intro img{
     position: relative;
-    display: inline-block;
     width:auto;
     height:300px;
     padding:0.65em;
@@ -48,10 +42,7 @@ header{
 .control-panel P{
     color : #bcc7d5 !important;
     position: relative;
-    bottom: 30px;
     font-size:17px;
-    display: inline-block;
-    bottom:100px;
 }
 
 hr{
