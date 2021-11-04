@@ -29,7 +29,6 @@ header{
     margin-bottom: 10%;
 
 }
-
 .intro img{
     position: relative;
     width:auto;
@@ -103,7 +102,8 @@ h2.prog-kno{
 }
 .knowledge{
     height:400px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     width: 100%;
 }
 h3{
@@ -128,24 +128,30 @@ h3{
 }
 
 .FrontEnd{
+    position: relative;
     display: inline-table;
     width: 10%;
     height: 250px;
+    right:22%;
 }
 .backEnd{
+    position: relative;
     display: inline-table;
     position: relative;
     width:10%;
     height: 250px;
-    margin-left: 4em; 
+    right:2%;
+     
 }
 
 
 .tools{
+    position: relative;
     display: inline-table;
     width:10%;
     height: 250px;
-    margin-left: 4em;
+    left:18%;
+    
 
 }
 .FrontEndList , .backEndList, .ToolsList{
