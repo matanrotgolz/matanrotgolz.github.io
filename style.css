@@ -412,11 +412,12 @@ footer{
     and (device-height: 926px) 
     and (-webkit-device-pixel-ratio: 3){ 
         .center{
+            position: relative;
+            left:25%;
             z-index: 1;
             border-radius: 20px;
             box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-            margin: 40px auto;
-            width: 100%;
+             width: 100%;
             border: 5px ;
             padding: 10px;
             background-color: #212428;
