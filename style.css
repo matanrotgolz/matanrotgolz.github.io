@@ -340,12 +340,13 @@ footer{
 }
 
 @media only screen and (max-width:760px) {
+   .intro{
+       flex-wrap: wrap-reverse;
+   }
     .control-panel p{
         margin-top:20%;
     }
-    .intro img{
-        left:20%;
-    }
+
 
     .Best-skill-container{
       
@@ -362,6 +363,9 @@ footer{
         width: 50% !important;
         height: 50px;
         font-size: 10px;
+    }
+    .knowledge{
+        display: inline-block;
     }
     .backEndHeader , .FrontListHeader,.ToolsListHeader{
         padding: 1px !important;
@@ -380,7 +384,7 @@ footer{
    
     .ToolsList{
         position: relative;
- 
+        
         margin-left: -3em !important;
     }
     .backEndList{
@@ -410,11 +414,10 @@ footer{
         .control-panel p{
             margin-top:20%;
         }
-        .intro img{
-            position: relative;
-            right:10% !important;
+        .intro{
+            display: flex;
+            flex-wrap:wrap-reverse;
         }
-    
         .Best-skill-container{
           
             width:100%;
