@@ -428,7 +428,7 @@ footer{
         }
         .intro{
             display: flex;
-            flex-wrap: wrap-reverse;
+            flex-wrap: wrap-reverse !important;
         }
         .Best-skill-container{
             width:100%;
