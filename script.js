@@ -92,27 +92,9 @@ function move(event) {
 
 
 
-function move1(event) {
-  if (i == 0) {
-    i = 1; 
-    let width1 = 1;
-    let id = setInterval(frame, 10);
-    function frame() {
-      if (width1 >= 100) {
-        clearInterval(id);
-        i = 0;
-      } else {
-        width1++;
-        headerColor.style.width = width1;
-      }
-    }
-  }
-  prog.removeEventListener('mouseover',move);
-}
+
 
 let prog = document.getElementById('prograssbar-container');
 prog.addEventListener('mouseover',move);
 
 
-let headerColor = document.getElementById('right');
-headerColor.addEventListener('mouseover',move1)
