@@ -1,3 +1,3 @@
 # `my_static_portfolio`
-Hey! This is my first ever website the I build totally by my self!
-The website is built using HTML,CSS and JS. THis si a very simple website.
+Hey! This is my first  website that I built totally by myself!
+The website is built using HTML,CSS and JS. THis is a very simple website.
